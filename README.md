@@ -19,3 +19,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
        
 </p>
+
+<div align="center">
+    <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Alifarya31&theme=violet-dark&hide_border=true">
+</div>
