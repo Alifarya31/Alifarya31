@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.07"/>
+    </pattern>
+    <linearGradient id="nameGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#ffc2d1"/>
+      <stop offset="100%" stop-color="#f75c7e"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f75c7e"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1000" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .blob   { animation: float 14s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2     { animation-duration: 18s; animation-direction: reverse; }
+    .b3     { animation-duration: 22s; animation-delay: -6s; }
+    @keyframes float {
+      0%,100% { transform: translate(0,0) scale(1); }
+      33%     { transform: translate(60px,-30px) scale(1.15); }
+      66%     { transform: translate(-40px,25px) scale(0.9); }
+    }
+
+    .fade   { opacity: 0; animation: fadeUp 1s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .2s; } .d2 { animation-delay: .6s; } .d3 { animation-delay: 1.4s; } .d4 { animation-delay: 1.8s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+
+    .hi    { font: 500 20px 'Segoe UI', 'Helvetica Neue', Ubuntu, sans-serif; fill: #c9bfe0; letter-spacing: 3px; }
+    .name  { font: 800 58px 'Segoe UI', 'Helvetica Neue', Ubuntu, sans-serif; fill: url(#nameGrad); letter-spacing: -1px; }
+    .role  { font: 600 24px 'Fira Code', Consolas, 'Courier New', monospace; fill: #f75c7e; opacity: 0; }
+    .meta  { font: 400 15px 'Segoe UI', 'Helvetica Neue', Ubuntu, sans-serif; fill: #8f84a8; letter-spacing: 1px; }
+
+    /* 3 role berganti-ganti, masing-masing tampil 3 detik dari siklus 9 detik */
+    .r1 { animation: role 9s infinite 2s; }
+    .r2 { animation: role 9s infinite 5s; }
+    .r3 { animation: role 9s infinite 8s; }
+    @keyframes role {
+      0%        { opacity: 0; transform: translateY(12px); }
+      5%, 28%   { opacity: 1; transform: translateY(0); }
+      33%, 100% { opacity: 0; transform: translateY(-12px); }
+    }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .underline { stroke-dasharray: 620; stroke-dashoffset: 620; animation: draw 1.2s ease-out 1s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .orbit { animation: spin 20s linear infinite; transform-origin: 830px 160px; }
+    .orbit2 { animation: spin 30s linear infinite reverse; transform-origin: 830px 160px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .bracket { font: 700 120px 'Fira Code', Consolas, monospace; fill: #f75c7e; opacity: .9; }
+    .pulse { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: .9; transform: scale(1); } 50% { opacity: .55; transform: scale(.94); } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="320" fill="#0f0b1a"/>
+    <circle class="blob"    cx="180" cy="80"  r="140" fill="#f75c7e" opacity=".35" filter="url(#blur)"/>
+    <circle class="blob b2" cx="820" cy="250" r="160" fill="#8b5cf6" opacity=".35" filter="url(#blur)"/>
+    <circle class="blob b3" cx="560" cy="40"  r="110" fill="#ec4899" opacity=".22" filter="url(#blur)"/>
+    <rect width="1000" height="320" fill="url(#dots)"/>
+
+    <!-- kiri: teks -->
+    <g transform="translate(70,0)">
+      <g class="fade d1"><text x="0" y="98" class="hi">HI THERE, I'M</text></g>
+      <g class="fade d2"><text x="0" y="160" class="name">Alif Arya Ramadhan</text></g>
+      <path class="underline" d="M2 180 Q 280 196 552 178" stroke="url(#lineGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+      <g transform="translate(0,222)">
+        <text class="role r1" x="0" y="0"><tspan fill="#8f84a8">&gt;</tspan> Full-stack Web Developer</text>
+        <text class="role r2" x="0" y="0"><tspan fill="#8f84a8">&gt;</tspan> UI/UX Designer</text>
+        <text class="role r3" x="0" y="0"><tspan fill="#8f84a8">&gt;</tspan> Always learning new things</text>
+      </g>
+
+      <g class="fade d4"><text x="0" y="270" class="meta">BINA NUSANTARA UNIVERSITY  ·  INDONESIA  ·  3+ YEARS OF CODE</text></g>
+    </g>
+
+    <!-- kanan: logo </> dengan orbit -->
+    <g class="fade d3">
+      <circle cx="830" cy="160" r="108" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+      <circle cx="830" cy="160" r="78"  fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-dasharray="4 8"/>
+      <g class="orbit">
+        <circle cx="830" cy="52" r="7" fill="#f75c7e"/>
+        <circle cx="938" cy="160" r="4" fill="#ffffff" opacity=".6"/>
+      </g>
+      <g class="orbit2">
+        <circle cx="830" cy="238" r="5" fill="#8b5cf6"/>
+        <circle cx="752" cy="160" r="3" fill="#ffc2d1"/>
+      </g>
+      <text x="830" y="200" text-anchor="middle" class="bracket pulse">&lt;/&gt;</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="319" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>

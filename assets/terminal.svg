@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1000" height="380" viewBox="0 0 1000 380">
+  <defs>
+    <clipPath id="c1"><rect x="40" y="70"  height="30" width="0"><animate attributeName="width" from="0" to="400" begin="0.6s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="140" height="30" width="0"><animate attributeName="width" from="0" to="400" begin="2.0s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="40" y="260" height="30" width="0"><animate attributeName="width" from="0" to="400" begin="4.6s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#f75c7e"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 18px; }
+    .p  { fill: #f75c7e; font-weight: 700; }
+    .c  { fill: #ffffff; }
+    .o  { fill: #c9bfe0; }
+    .k  { fill: #a78bfa; }
+    .dim{ fill: #6b6283; }
+    .title { font-size: 13px; fill: #8f84a8; }
+  </style>
+
+  <!-- jendela -->
+  <rect width="1000" height="380" rx="16" fill="#0f0b1a"/>
+  <rect x=".5" y=".5" width="999" height="379" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  <rect x="0" y="0" width="1000" height="3" fill="url(#bar)" rx="1.5"/>
+  <circle cx="30" cy="28" r="7" fill="#ff5f57"/>
+  <circle cx="54" cy="28" r="7" fill="#febc2e"/>
+  <circle cx="78" cy="28" r="7" fill="#28c840"/>
+  <text x="500" y="33" text-anchor="middle" class="title">alif@binus: ~/profile</text>
+  <line x1="0" y1="52" x2="1000" y2="52" stroke="#ffffff" stroke-opacity=".06"/>
+
+  <!-- $ whoami -->
+  <g opacity="0"><set attributeName="opacity" to="1" begin="0.4s" fill="freeze"/>
+    <text x="40" y="92"><tspan class="p">❯</tspan></text>
+    <text x="64" y="92" class="c" clip-path="url(#c1)">whoami</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/>
+    <text x="64" y="122" class="o">Alif Arya Ramadhan <tspan class="dim">—</tspan> <tspan class="k">Full-stack Web Developer</tspan> <tspan class="dim">&amp;</tspan> <tspan class="k">UI/UX Designer</tspan></text>
+  </g>
+
+  <!-- $ cat about.txt -->
+  <g opacity="0"><set attributeName="opacity" to="1" begin="1.9s" fill="freeze"/>
+    <text x="40" y="162"><tspan class="p">❯</tspan></text>
+    <text x="64" y="162" class="c" clip-path="url(#c3)">cat about.txt</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.4s" fill="freeze"/>
+    <text x="64" y="192" class="o"><tspan class="k">education</tspan></text>
+    <text x="190" y="192" class="o"><tspan class="dim">→</tspan> Bina Nusantara University</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.4s" fill="freeze"/>
+    <text x="64" y="220" class="o"><tspan class="k">experience</tspan></text>
+    <text x="190" y="220" class="o"><tspan class="dim">→</tspan> 3+ years of writing code</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.4s" fill="freeze"/>
+    <text x="64" y="248" class="o"><tspan class="k">passion</tspan></text>
+    <text x="190" y="248" class="o"><tspan class="dim">→</tspan> turning Figma designs into fast, real web apps</text>
+  </g>
+
+  <!-- $ echo $MOTTO -->
+  <g opacity="0"><set attributeName="opacity" to="1" begin="4.5s" fill="freeze"/>
+    <text x="40" y="282"><tspan class="p">❯</tspan></text>
+    <text x="64" y="282" class="c" clip-path="url(#c8)">echo $MOTTO</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.4s" fill="freeze"/>
+    <text x="64" y="312" class="o">"Always learning new things." <tspan class="dim">✦</tspan></text>
+  </g>
+
+  <!-- prompt terakhir + kursor berkedip -->
+  <g opacity="0"><set attributeName="opacity" to="1" begin="6.2s" fill="freeze"/>
+    <text x="40" y="348"><tspan class="p">❯</tspan></text>
+    <rect x="64" y="332" width="11" height="20" fill="#f75c7e">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" calcMode="discrete" repeatCount="indefinite" begin="6.2s"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f75c7e"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <style>
+    .w1 { animation: wave 8s linear infinite; }
+    .w2 { animation: wave 12s linear infinite reverse; }
+    @keyframes wave { from { transform: translateX(0); } to { transform: translateX(-1000px); } }
+    .t { font: 500 15px 'Segoe UI', 'Helvetica Neue', Ubuntu, sans-serif; fill: #c9bfe0; letter-spacing: 2px;
+         animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+  </style>
+  <text x="500" y="38" text-anchor="middle" class="t">THANKS FOR VISITING  ✦  LET'S BUILD SOMETHING</text>
+  <g class="w2" opacity=".35">
+    <path fill="url(#g)" d="M0 80 Q125 55 250 80 T500 80 T750 80 T1000 80 T1250 80 T1500 80 T1750 80 T2000 80 V120 H0Z"/>
+  </g>
+  <g class="w1" opacity=".8">
+    <path fill="url(#g)" d="M0 92 Q125 112 250 92 T500 92 T750 92 T1000 92 T1250 92 T1500 92 T1750 92 T2000 92 V120 H0Z"/>
+  </g>
+</svg>
