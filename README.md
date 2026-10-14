@@ -1,25 +1,37 @@
 <p align="center">
-   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Hi,+I+am+Alif+Arya+Ramadhan;Bina+Nusantara+University;&font=Fira%20Code&center=true&width=500&height=50&color=f75c7e&vCenter=true&pause=1000&size=22" />
-  </a>
+  <img src="./assets/header.svg" width="100%" alt="Alif Arya Ramadhan — Full-stack Web Developer & UI/UX Designer" />
 </p>
 
 <p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack+Web+Developer;Experienced%20UI%2FUX%20Designer;3%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
-  </a>
+  <a href="https://www.linkedin.com/in/alif-arya-ramadhan-743528249/"><img src="https://img.shields.io/badge/LinkedIn-1a1426?style=for-the-badge&logo=linkedin&logoColor=f75c7e" /></a>
+  <a href="https://x.com/TobyyyRamaa"><img src="https://img.shields.io/badge/X-1a1426?style=for-the-badge&logo=x&logoColor=f75c7e" /></a>
+  <a href="mailto:alifaryaramadhan02@gmail.com"><img src="https://img.shields.io/badge/Email-1a1426?style=for-the-badge&logo=gmail&logoColor=f75c7e" /></a>
 </p>
 
-<!-- Social icons section -->
+<br/>
+
 <p align="center">
-    <a href="https://www.linkedin.com/in/alif-arya-ramadhan-743528249/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/yRpa1dQ.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://x.com/TobyyyRamaa"><img width="32px" alt="Twitter" title="Twitter" src="https://i.imgur.com/AixJgnm.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-       
+  <img src="./assets/terminal.svg" width="100%" alt="About me" />
 </p>
 
-<div align="center">
-    <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Alifarya31&theme=violet-dark&hide_border=true">
-</div>
+<br/>
+
+<h3 align="center">⚡ Tech Stack</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs&theme=dark&perline=8" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,mongodb,firebase&theme=dark&perline=8" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,vercel&theme=dark&perline=8" />
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/Alifarya31/Alifarya31/output/snake.svg" width="100%" alt="Snake eating my contributions" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" />
+</p>
