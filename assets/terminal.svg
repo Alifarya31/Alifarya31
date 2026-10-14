@@ -45,7 +45,7 @@
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.4s" fill="freeze"/>
     <text x="64" y="220" class="o"><tspan class="k">experience</tspan></text>
-    <text x="190" y="220" class="o"><tspan class="dim">→</tspan> 3+ years of writing code</text>
+    <text x="190" y="220" class="o"><tspan class="dim">→</tspan> 2+ years of writing code</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.4s" fill="freeze"/>
     <text x="64" y="248" class="o"><tspan class="k">passion</tspan></text>
