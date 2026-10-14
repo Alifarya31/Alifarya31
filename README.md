@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alif-arya-ramadhan-743528249/"><img src="https://img.shields.io/badge/LinkedIn-1a1426?style=for-the-badge&logo=linkedin&logoColor=f75c7e" /></a>
-  <a href="https://x.com/TobyyyRamaa"><img src="https://img.shields.io/badge/X-1a1426?style=for-the-badge&logo=x&logoColor=f75c7e" /></a>
   <a href="mailto:alifaryaramadhan02@gmail.com"><img src="https://img.shields.io/badge/Email-1a1426?style=for-the-badge&logo=gmail&logoColor=f75c7e" /></a>
 </p>
 
