@@ -25,6 +25,14 @@
 
 <br/>
 
+<h3 align="center">🔥 GitHub Streak</h3>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Alifarya31&background=0F0B1A&border=2A2340&ring=F75C7E&fire=F75C7E&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F75C7E&sideLabels=C9BFE0&dates=8F84A8&stroke=3B2350&border_radius=16" width="100%" alt="GitHub Streak" />
+</p>
+
+<br/>
+
 <p align="center">
   <picture>
     <img src="https://raw.githubusercontent.com/Alifarya31/Alifarya31/output/snake.svg" width="100%" alt="Snake eating my contributions" />
