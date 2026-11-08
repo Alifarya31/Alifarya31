@@ -4,12 +4,12 @@
     <line x1="165" y1="35" x2="165" y2="125" stroke="#3B2350"/>
     <line x1="330" y1="35" x2="330" y2="125" stroke="#3B2350"/>
 
-    <text x="82" y="85" font-size="30" font-weight="700" fill="#FFFFFF">818</text>
+    <text x="82" y="85" font-size="30" font-weight="700" fill="#FFFFFF">827</text>
     <text x="82" y="112" font-size="13" fill="#C9BFE0">Total Contributions</text>
     <text x="82" y="130" font-size="10" fill="#8F84A8">last 12 months</text>
 
     <circle cx="247" cy="75" r="38" fill="none" stroke="#F75C7E" stroke-width="5"/>
-    <text x="247" y="85" font-size="28" font-weight="700" fill="#FFFFFF">10</text>
+    <text x="247" y="85" font-size="28" font-weight="700" fill="#FFFFFF">11</text>
     <text x="247" y="140" font-size="13" font-weight="600" fill="#F75C7E">Current Streak</text>
 
     <text x="412" y="85" font-size="30" font-weight="700" fill="#FFFFFF">12</text>
